@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_call_to_action_sections",
+  "info": {
+    "displayName": "Call To Action Section",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ButtonText": {
+      "type": "string"
+    }
+  }
+}

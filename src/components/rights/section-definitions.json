@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_rights_section_definitions",
+  "info": {
+    "displayName": "Definitions Section",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Definitions"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "definitions": {
+      "displayName": "Definition",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.definition",
+      "required": true
+    }
+  }
+}

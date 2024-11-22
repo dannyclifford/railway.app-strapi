@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_partners_sections",
+  "info": {
+    "displayName": "Partners Section",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "Partners": {
+      "displayName": "Partner",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.partner"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

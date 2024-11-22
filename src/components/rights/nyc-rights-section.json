@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_rights_nyc_rights_sections",
+  "info": {
+    "displayName": "NYC Rights Section",
+    "icon": "thumbUp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "rights": {
+      "displayName": "Icon Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.icon-card",
+      "required": true
+    }
+  }
+}

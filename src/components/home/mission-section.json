@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_mission_sections",
+  "info": {
+    "displayName": "Mission Section",
+    "icon": "moon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "mission": {
+      "type": "text"
+    },
+    "visionTitle": {
+      "type": "string"
+    },
+    "visionText": {
+      "type": "text"
+    },
+    "valuesTitle": {
+      "type": "string"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.graph-card-top-items"
+    }
+  }
+}

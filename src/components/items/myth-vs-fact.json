@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_items_myth_vs_facts",
+  "info": {
+    "displayName": "Myth vs Fact",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "myth": {
+      "type": "text",
+      "required": true
+    },
+    "fact": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

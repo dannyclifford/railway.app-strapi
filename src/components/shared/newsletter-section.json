@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_newsletter_sections",
+  "info": {
+    "displayName": "Newsletter Section",
+    "icon": "discuss"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

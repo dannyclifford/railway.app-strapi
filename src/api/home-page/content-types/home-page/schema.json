@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Page - Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Sections": {
+      "type": "dynamiczone",
+      "components": [
+        "home.resources-section",
+        "home.about-us-section",
+        "home.call-to-action-section",
+        "dynamic-zone.features",
+        "home.video-section",
+        "home.partners-section",
+        "home.mission-section",
+        "home.survey-section",
+        "home.learn-from-each-other-section",
+        "shared.newsletter-section",
+        "shared.contact-section"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "Hero_Section": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "dynamic-zone.hero"
+    }
+  }
+}

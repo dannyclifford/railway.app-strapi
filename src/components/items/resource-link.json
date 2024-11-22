@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_items_resource_links",
+  "info": {
+    "displayName": "Resource Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

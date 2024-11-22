@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_multilinguals",
+  "info": {
+    "displayName": "Multilingual",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "en": {
+      "type": "text",
+      "required": true
+    },
+    "es": {
+      "type": "text"
+    },
+    "ru": {
+      "type": "text"
+    },
+    "fr": {
+      "type": "text"
+    }
+  }
+}

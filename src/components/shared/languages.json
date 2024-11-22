@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_languages",
+  "info": {
+    "displayName": "languages",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "English",
+        "Spanish",
+        "Russian",
+        "French"
+      ]
+    }
+  }
+}

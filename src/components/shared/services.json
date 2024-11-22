@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_services",
+  "info": {
+    "displayName": "Services",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "service": {
+      "type": "enumeration",
+      "enum": [
+        "Mental Health",
+        "General Health",
+        "Housing",
+        "Child Care",
+        "Trauma Treatment",
+        "Employment",
+        "Forensic Examiniations",
+        "Reproductive Health",
+        "Chronic Illness",
+        "Dental Care",
+        "Pediatric Care",
+        "Emergency Medical",
+        "LGBTQ Friendly",
+        "Mental Health Emergency Hotlines",
+        "Optometry",
+        "Transportation",
+        "Legal Support",
+        "Domestic Violence",
+        "Food"
+      ]
+    }
+  }
+}

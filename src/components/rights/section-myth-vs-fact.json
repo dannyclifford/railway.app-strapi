@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_rights_section_myth_vs_facts",
+  "info": {
+    "displayName": "Myth vs Fact Section",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Know The Facts",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Myths we hear about Asylum"
+    },
+    "mythsAndFacts": {
+      "displayName": "Myth vs Fact",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.myth-vs-fact"
+    }
+  }
+}

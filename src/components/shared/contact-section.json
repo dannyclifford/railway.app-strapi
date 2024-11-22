@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_contact_sections",
+  "info": {
+    "displayName": "Contact Section",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "showNameField": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resource_pages",
+  "info": {
+    "singularName": "resource-page",
+    "pluralName": "resource-pages",
+    "displayName": "Resource Pages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "url": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "icon": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Brain",
+        "Heart",
+        "Baby",
+        "Home",
+        "Activity",
+        "Briefcase",
+        "Toy",
+        "Phone",
+        "Car",
+        "Pill Bottle",
+        "Shield",
+        "Legal"
+      ]
+    }
+  }
+}

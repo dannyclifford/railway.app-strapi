@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_video_sections",
+  "info": {
+    "displayName": "Video Section",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "youtubeLink": {
+      "type": "string"
+    }
+  }
+}

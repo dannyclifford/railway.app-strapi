@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_titles",
+  "info": {
+    "displayName": "Title",
+    "icon": "hashtag"
+  },
+  "options": {},
+  "attributes": {
+    "en": {
+      "type": "string",
+      "required": true
+    },
+    "es": {
+      "type": "string"
+    },
+    "ru": {
+      "type": "string"
+    },
+    "fr": {
+      "type": "string"
+    }
+  }
+}

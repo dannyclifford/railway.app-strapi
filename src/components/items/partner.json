@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_items_partners",
+  "info": {
+    "displayName": "Partner",
+    "icon": "oneToMany"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_home_survey_sections",
+  "info": {
+    "displayName": "Survey Section",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "default": "/survey"
+    }
+  }
+}

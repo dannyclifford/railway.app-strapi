@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "rights_pages",
+  "info": {
+    "singularName": "rights-page",
+    "pluralName": "rights-pages",
+    "displayName": "Page - Rights",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Hero_Section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamic-zone.hero",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "Sections": {
+      "type": "dynamiczone",
+      "components": [
+        "home.call-to-action-section",
+        "rights.section-myth-vs-fact",
+        "shared.contact-section",
+        "rights.section-definitions",
+        "rights.nyc-rights-section"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

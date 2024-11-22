@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_contact_uses",
+  "info": {
+    "singularName": "page-contact-us",
+    "pluralName": "page-contact-uses",
+    "displayName": "Page - Contact Us"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Hero_Section": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "dynamic-zone.hero"
+    },
+    "Sections": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "shared.contact-section",
+        "home.learn-from-each-other-section"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

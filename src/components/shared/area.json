@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_areas",
+  "info": {
+    "displayName": "Area",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "county": {
+      "type": "enumeration",
+      "enum": [
+        "Bronx",
+        "Queens",
+        "Manhattan",
+        "Brooklyn",
+        "Staten Island",
+        "Westchester",
+        "Orange",
+        "Rockland"
+      ]
+    }
+  }
+}

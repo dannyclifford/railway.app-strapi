@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_resources_sections",
+  "info": {
+    "displayName": "Resources Section",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Resources"
+    },
+    "Description": {
+      "type": "text",
+      "default": "What are you looking for today?"
+    },
+    "Resource_Pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::resource-page.resource-page"
+    }
+  }
+}

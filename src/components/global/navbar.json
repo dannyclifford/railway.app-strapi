@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_navbars",
+  "info": {
+    "displayName": "Navbar",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navbar_items": {
+      "displayName": "Left_Navbar_Items",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "right_navbar_items": {
+      "displayName": "Right_Navbar_Items",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

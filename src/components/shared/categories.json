@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_categories",
+  "info": {
+    "displayName": "Categories",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "health",
+        "mental-health",
+        "employment",
+        "reproductive-health",
+        "housing",
+        "chronic-illness",
+        "child-care",
+        "emergency-hotlines",
+        "transportation",
+        "substance-abuse-treatment",
+        "domestic-violence",
+        "legal"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_items_icon_cards",
+  "info": {
+    "displayName": "Icon Card",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "Globe",
+        "Protect",
+        "Stethoscope",
+        "Heart Handshake",
+        "Building",
+        "Home",
+        "Shield",
+        "Alert"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

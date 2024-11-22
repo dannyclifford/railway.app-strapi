@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_items_cta_cards",
+  "info": {
+    "displayName": "CTA Card",
+    "icon": "walk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "Users - Service Providers",
+        "Book - Rights"
+      ]
+    }
+  }
+}
