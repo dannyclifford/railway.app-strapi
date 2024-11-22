@@ -1,8 +1,8 @@
 {
-  "name": "strapi",
+  "name": "hmh-cms",
   "version": "0.1.0",
   "private": true,
-  "description": "A Strapi application",
+  "description": "Her Migrant Hubs CMS",
   "scripts": {
     "build": "strapi build",
     "deploy": "strapi deploy",
@@ -15,7 +15,6 @@
     "@strapi/plugin-users-permissions": "5.1.0",
     "@strapi/provider-upload-cloudinary": "5.1.0",
     "@strapi/strapi": "5.1.0",
-    "better-sqlite3": "^11.5.0",
     "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -30,7 +29,8 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": "20"
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=9.0.0"
   },
   "strapi": {
     "uuid": "fbaf61cd-dcdc-45ae-bf43-8781f5861c55"
