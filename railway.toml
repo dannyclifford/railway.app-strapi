@@ -4,5 +4,8 @@ buildCommand = "yarn build"
 
 [deploy]
 startCommand = "yarn start"
-healthcheckPath = "/_health"
+healthcheckPath = "/"
 restartPolicyType = "on_failure"
+
+[variables]
+NODE_ENV = "production"
