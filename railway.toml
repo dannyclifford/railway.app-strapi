@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+buildCommand = "yarn build"
+
+[deploy]
+startCommand = "yarn start"
+healthcheckPath = "/_health"
+restartPolicyType = "on_failure"
