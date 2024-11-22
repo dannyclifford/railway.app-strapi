@@ -1,9 +1,3 @@
-'use strict';
+﻿import { factories } from '@strapi/strapi';
 
-/**
- * rights-page service
- */
-
-const { createCoreService } = require('@strapi/strapi').factories;
-
-module.exports = createCoreService('api::rights-page.rights-page');
+export default factories.createCoreService('api::rights-page.rights-page');

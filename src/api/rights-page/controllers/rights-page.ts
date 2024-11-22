@@ -1,9 +1,3 @@
-'use strict';
+﻿import { factories } from '@strapi/strapi';
 
-/**
- * rights-page controller
- */
-
-const { createCoreController } = require('@strapi/strapi').factories;
-
-module.exports = createCoreController('api::rights-page.rights-page');
+export default factories.createCoreController('api::rights-page.rights-page');

@@ -1,9 +1,3 @@
-'use strict';
+﻿import { factories } from '@strapi/strapi';
 
-/**
- * rights-page router
- */
-
-const { createCoreRouter } = require('@strapi/strapi').factories;
-
-module.exports = createCoreRouter('api::rights-page.rights-page');
+export default factories.createCoreRouter('api::rights-page.rights-page');

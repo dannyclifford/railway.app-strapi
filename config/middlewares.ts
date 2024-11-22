@@ -30,7 +30,20 @@ export default [
       },
     },
   },
-  "strapi::cors",
+  {
+    name: "strapi::cors",
+    config: {
+      headers: "*",
+      origin: [
+        "http://localhost:3000",
+        "http://localhost:1337",
+        "https://hermigranthub.org",
+      ], // Replace with your Next.js domain
+      methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
+      keepHeaderOnError: true,
+      credentials: true,
+    },
+  },
   "strapi::poweredBy",
   "strapi::query",
   "strapi::body",
