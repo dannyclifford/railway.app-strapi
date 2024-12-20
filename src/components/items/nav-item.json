@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_items_nav_items",
+  "info": {
+    "displayName": "Nav Item",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "menu_items": {
+      "displayName": "submenu",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.submenu"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

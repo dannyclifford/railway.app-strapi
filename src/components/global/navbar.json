@@ -7,17 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "navbar_items": {
-      "displayName": "Left_Navbar_Items",
+    "nav_items": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.link"
-    },
-    "right_navbar_items": {
-      "displayName": "Right_Navbar_Items",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.link"
+      "component": "items.nav-item"
     }
   }
 }

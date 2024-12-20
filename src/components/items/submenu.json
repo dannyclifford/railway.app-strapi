@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_items_submenus",
+  "info": {
+    "displayName": "submenu",
+    "icon": "arrowDown"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "open_new_tab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
